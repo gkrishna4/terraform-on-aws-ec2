@@ -9,8 +9,8 @@
 ## Step-01: Introduction
 - Understand basic Terraform Commands
   - terraform init :- Used to Initialize a working directory containing terraform config files,This is the first command that should be run
-                      after writing a new Terraform configuration.
-    
+                      after writing a new Terraform configuration. And Downloads Providers.
+
   - terraform validate :- Validates the terraform configurations files in that respective directory to ensure they are syntactically valid and internally consistent.
     
   - terraform plan :-  Creates an execution plan, Terraform performs a refresh and determines what actions are necessary to achieve the desired state
