@@ -1,4 +1,10 @@
 # Terraform Command Basics
+  -  terraform init
+  -  terraform validate
+  -  terraform plan
+  -  terraform apply
+  -  terraform destroy
+    
 
 ## Step-01: Introduction
 - Understand basic Terraform Commands
