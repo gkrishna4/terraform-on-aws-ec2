@@ -19,6 +19,8 @@
 - By using for_each we can create the ec2_instance in each/all availability_zones with respect to the Region.
 
 ### Step-03-01: Availability Zones Datasource
+- the below code will show the list of availability zones.
+- source:- https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/availability_zones.html
 ```t
 # Availability Zones Datasource
 data "aws_availability_zones" "my_azones" {
