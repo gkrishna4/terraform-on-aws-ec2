@@ -33,7 +33,9 @@ data "aws_availability_zones" "my_azones" {
 
 ### Step-03-02: EC2 Instance Resource
 - for_each meta_argument accepets a map (or) a set of strings. for_each is equalent to count, here count only gives the count.index
-  but when we are using the for_each, we can able to pass setof strings and maps [https://developer.hashicorp.com/terraform/language/meta-arguments/for_each] 
+  but when we are using the for_each, we can able to pass setof strings and maps [https://developer.hashicorp.com/terraform/language/meta-arguments/for_each]
+- When we are passing map to for_each, then each.key is NotEqualTo each.value .
+- But whan we are passing set of strings to for_each then each.key is EqualTo each.value .
 ```t
 # EC2 Instance
 resource "aws_instance" "myec2vm" {
