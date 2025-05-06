@@ -16,6 +16,7 @@
 
 ## Step-03: c5-ec2instance.tf
 - To understand more about [for_each](https://www.terraform.io/docs/language/meta-arguments/for_each.html)
+- By using for_each we can create the ec2_instance in each/all availability_zones with respect to the Region.
 
 ### Step-03-01: Availability Zones Datasource
 ```t
