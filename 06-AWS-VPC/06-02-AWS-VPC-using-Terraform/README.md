@@ -120,7 +120,10 @@ rm -rf terraform.tfstate*
 - [Review and understand this carefully](https://www.terraform.io/docs/language/expressions/version-constraints.html#terraform-core-and-provider-versions)
 
 ## Step-05: v2-vpc-module-standardized - Standardized and Generalized
-- In the next series of steps we are going to standardize the VPC configuration
+- In the next series of steps we are going to standardize the VPC configuration.
+- What ever we defind the default values in variables.tf file, those are override with, what we have defind in terraform.tfvars, with the veriable names 
+  which is defind in variables.tf file.
+  
 - c2-generic-variables.tf
 ```t
 # Input Variables
