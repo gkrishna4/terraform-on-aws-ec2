@@ -54,6 +54,8 @@ resource "aws_instance" "myec2vm" {
 ```
 
 ## Step-04: c6-outputs.tf
+- when we are using for_each the splat oparator[*] is not work why?
+- Because splat oparator accepts/output only the List. But comming to for_each only accepts maps or setof strings.  
 ```t
 
 # EC2 Instance Public IP with TOSET
